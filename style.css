@@ -281,10 +281,12 @@ a {
   margin-top: 14px;
 }
 
+
 .skills-grid,
 .value-grid,
 .projects-grid,
-.contact-grid {
+.contact-grid,
+.experience-grid {
   display: grid;
   gap: 18px;
 }
