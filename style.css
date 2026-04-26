@@ -281,6 +281,44 @@ a {
   margin-top: 14px;
 }
 
+.experience-card {
+  padding: 24px;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.experience-header h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.experience-company {
+  margin-top: 6px;
+  color: var(--accent-2);
+  font-weight: 600;
+}
+
+.experience-duration {
+  color: var(--muted);
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+.experience-list {
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.experience-list li + li {
+  margin-top: 10px;
+}
 
 .skills-grid,
 .value-grid,
@@ -419,7 +457,8 @@ a {
 
   .skills-grid,
   .value-grid,
-  .contact-grid {
+  .contact-grid,
+  .experience-grid {
     grid-template-columns: 1fr;
   }
 
