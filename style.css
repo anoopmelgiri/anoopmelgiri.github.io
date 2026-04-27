@@ -339,6 +339,19 @@ a {
   font-weight: 600;
 }
 
+.resume-email {
+  color: var(--accent-2);
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(96, 165, 250, 0.35);
+  transition: all 0.25s ease;
+}
+
+.resume-email:hover {
+  color: #ffffff;
+  border-bottom-color: rgba(255, 255, 255, 0.7);
+}
+
 .skills-grid,
 .value-grid,
 .projects-grid,
