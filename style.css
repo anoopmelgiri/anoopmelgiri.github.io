@@ -320,11 +320,31 @@ a {
   margin-top: 10px;
 }
 
+.certifications-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.certification-card {
+  padding: 22px;
+}
+
+.certification-card h3 {
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.certification-card p {
+  margin-top: 10px;
+  color: var(--accent-2);
+  font-weight: 600;
+}
+
 .skills-grid,
 .value-grid,
 .projects-grid,
 .contact-grid,
-.experience-grid {
+.experience-grid,
+.certifications-grid {
   display: grid;
   gap: 18px;
 }
@@ -458,7 +478,8 @@ a {
   .skills-grid,
   .value-grid,
   .contact-grid,
-  .experience-grid {
+  .experience-grid,
+  .certifications-grid {
     grid-template-columns: 1fr;
   }
 
