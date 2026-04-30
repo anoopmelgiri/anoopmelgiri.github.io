@@ -326,7 +326,16 @@ a {
 }
 
 .certifications-grid {
-  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  gap: 18px;
+}
+
+.certifications-completed {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.certifications-progress {
+  grid-template-columns: 1fr;
 }
 
 .certification-card {
@@ -342,6 +351,19 @@ a {
   margin-top: 10px;
   color: var(--accent-2);
   font-weight: 600;
+}
+
+.certification-group + .certification-group {
+  margin-top: 22px;
+}
+
+.certification-group .mini-label {
+  margin-bottom: 12px;
+}
+
+.certification-card-active {
+  border-color: rgba(56, 189, 248, 0.18);
+  background: rgba(17, 24, 39, 0.68);
 }
 
 .resume-email {
@@ -514,7 +536,9 @@ a {
   .value-grid,
   .contact-grid,
   .experience-grid,
-  .certifications-grid {
+  .certifications-grid,
+  .certifications-completed,
+  .certifications-progress {
     grid-template-columns: 1fr;
   }
 
