@@ -311,7 +311,7 @@ a {
 }
 
 .experience-duration {
-  color: var(--primary);
+  color: var(--accent-2);
   font-weight: 600;
   letter-spacing: 0.02em;
   font-size: 0.95rem;
