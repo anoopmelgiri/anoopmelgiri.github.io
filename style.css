@@ -415,6 +415,12 @@ a {
 
 .skill-card h3,
 .value-card h3,
+.project-card h3 {
+  background: linear-gradient(90deg, #8b5cf6, #38bdf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .project-card p,
 .contact-card h3 {
   color: var(--text);
