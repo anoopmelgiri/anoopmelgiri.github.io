@@ -260,8 +260,11 @@ a {
 }
 
 .info-row span {
-  color: var(--muted);
-  font-size: 0.9rem;
+  color: var(--accent-2);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .section {
